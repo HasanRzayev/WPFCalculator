@@ -25,80 +25,66 @@
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
-        <Button Name="button_1" Grid.Column="0" Grid.Row="6"  Click="button_1_Click" 
+        <Button Name="button_1" Content="1" Grid.Column="0" Grid.Row="6"  Click="button_1_Click" 
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/1-128.png">
-            </Image>
+       
         </Button>
-        <Button Name="button_2" Grid.Column="1" Grid.Row="6"  Click="button_2_Click"
+        <Button Name="button_2"  Content="2" Grid.Column="1" Grid.Row="6"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/2-256.png">
-            </Image>
+         
         </Button>
-        <Button Name="button_3" Grid.Column="2" Grid.Row="6"  Click="button_3_Click"
+        <Button Name="button_3"  Content="3" Grid.Column="2" Grid.Row="6"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/3-256.png">
-            </Image>
+          
         </Button>
-        <Button Name="button_4" Grid.Column="0" Grid.Row="5"  Click="button_4_Click"
+        <Button Name="button_4" Content="4" Grid.Column="0" Grid.Row="5"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/4-128.png">
-            </Image>
+          
         </Button>
-        <Button Name="button_5" Grid.Column="1" Grid.Row="5"  Click="button_5_Click"
+        <Button Name="button_5"  Content="5" Grid.Column="1" Grid.Row="5"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/5-128.png">
-            </Image>
+           
         </Button>
-        <Button Name="button_6" Grid.Column="2" Grid.Row="5"  Click="button_6_Click"
+        <Button Name="button_6"  Content="6" Grid.Column="2" Grid.Row="5"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/6-128.png">
-            </Image>
+          
         </Button>
-        <Button Name="button_7" Grid.Column="0" Grid.Row="4"  Click="button_7_Click"
+        <Button Name="button_7"   Content="7" Grid.Column="0" Grid.Row="4"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/7-256.png">
-            </Image>
+           
         </Button>
-        <Button Name="button_8" Grid.Column="1" Grid.Row="4"  Click="button_8_Click_1"
+        <Button Name="button_8" Content="8" Grid.Column="1" Grid.Row="4"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/8-256.png">
-            </Image>
+          
         </Button>
-        <Button Name="button_9" Grid.Column="2" Grid.Row="4"  Click="button_9_Click"
+        <Button Name="button_9"  Content="9" Grid.Column="2" Grid.Row="4"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/9-128.png">
-            </Image>
+            
         </Button>
-        <Button Name="button_plus" Grid.Column="3" Grid.Row="7"  Click="button_plus_Click"
+        <Button Name="button_plus" Content="+" Grid.Column="3" Grid.Row="7"  Click="button_plus_Click"
                  >
-            <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/plus-256.png">
-            </Image>
+        
         </Button>
-        <Button Name="button_minus" Grid.Column="3" Grid.Row="6" Click="button_minus_Click"  
+        <Button Name="button_minus" Content="-"  Grid.Column="3" Grid.Row="6" Click="button_plus_Click"  
                  >
-            <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/minus-128.png">
-            </Image>
+         
         </Button>
-        <Button Name="button_vur" Grid.Column="3" Grid.Row="5" Click="button_vur_Click"  
+        <Button Name="button_vur" Content="*" Grid.Column="3" Grid.Row="5" Click="button_plus_Click"  
                  >
-            <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/delete-128.png">
-            </Image>
+     
         </Button>
-        <Button Name="button_bol" Grid.Column="3" Grid.Row="4"  Click="button_bolme_Click" 
+        <Button Name="button_bol"  Content="/" Grid.Column="3" Grid.Row="4"  Click="button_plus_Click" 
                  >
-            <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/division-128.png">
-            </Image>
+    
         </Button>
         <Button Name="button_vergul" Grid.Column="2" Grid.Row="7"   Click="button_vergul_Click"
                  >
             <Image Source="https://cdn3.iconfinder.com/data/icons/fluent-regular-24px-vol-2/24/ic_fluent_comma_24_regular-256.png">
             </Image>
         </Button>
-        <Button Name="button_zero" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2"  Click="button_0_Click"
+        <Button Name="button_zero"  Content="0" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2"  Click="button_1_Click"
                  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/0-256.png">
-            </Image>
+           
         </Button>
         <Button Name="button_beraber" Grid.Column="5" Grid.Row="6" Grid.RowSpan="2"  Click="button_beraber_Click">
             <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/equal-128.png">
@@ -108,7 +94,7 @@
             <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/percentage-128.png">
             </Image>
         </Button>
-        <Button Name="button_kok" Grid.Column="5" Grid.Row="3"   >
+        <Button Name="button_kok" Grid.Column="5" Grid.Row="3" Click="button_kok_Click"   >
             <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/square_root-256.png">
             </Image>
         </Button>
@@ -116,11 +102,11 @@
             <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/plus-minus-256.png">
             </Image>
         </Button>
-        <Button Name="button_c" Grid.Column="2" Grid.Row="3"   >
+        <Button Name="button_c" Grid.Column="2" Grid.Row="3"  Click="button_c_Click"     >
             <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/c-256.png">
             </Image>
         </Button>
-        <Button Name="button_ce" Grid.Column="1" Grid.Row="3"   >
+        <Button Name="button_ce" Grid.Column="1" Grid.Row="3" Click="button_ce_Click"     >
             <Image Source="https://cdn3.iconfinder.com/data/icons/calculator-7/154/ce-math-function-operation-calculator-512.png">
             </Image>
         </Button>
@@ -128,25 +114,45 @@
             <Image Source="https://cdn4.iconfinder.com/data/icons/math-calculator-solid/48/Calculator-Math_hapus-512.png">
             </Image>
         </Button>
-        <Button Name="button_mc" Content="MC" FontSize="20" Grid.Column="0" Grid.Row="2"   >
+        <Button Name="button_mc" Content="MC" FontSize="20" Grid.Column="0" Grid.Row="2" Click="button_mc_Click">
        
         </Button>
-        <Button Name="button_mr" Content="MR" FontSize="20" Grid.Column="1" Grid.Row="2"   >
+        <Button Name="button_mr" Content="MR" FontSize="20" Grid.Column="1" Grid.Row="2" Click="button_mr_Click"   >
 
         </Button>
-        <Button Name="button_ms" Content="MS" FontSize="20" Grid.Column="2" Grid.Row="2"   >
+        <Button Name="button_ms" Content="MS" FontSize="20" Grid.Column="2" Grid.Row="2" Click="button_ms_Click"   >
 
         </Button>
-        <Button Name="button_mplus" Content="M+" FontSize="20" Grid.Column="3" Grid.Row="2"   >
+        <Button Name="button_mplus" Content="M+" FontSize="20" Grid.Column="3" Grid.Row="2" Click="button_mplus_Click"  >
 
         </Button>
-        <Button Name="button_mminus" Content="M-" FontSize="20" Grid.Column="4" Grid.Row="2"   >
+        <Button Name="button_mminus" Content="M-" FontSize="20" Grid.Column="4" Grid.Row="2"  Click="button_mminus_Click"    >
 
         </Button>
-        <Button Name="button_1bolx" Content="1/x" FontSize="20" Grid.Column="5" Grid.Row="5"   >
+        <Button Name="button_1bolx" Content="1/x" FontSize="20" Grid.Column="5" Grid.Row="5"  Click="button_1bolx_Click"     >
 
         </Button>
-
-        <TextBox Name="ekran" FontSize="40"  HorizontalContentAlignment="Right"  Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5" ></TextBox>
+        
+        
+        
+        <Grid Grid.Column="0" Grid.Row="1" Grid.ColumnSpan="5">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="18*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition ></RowDefinition>
+                <RowDefinition ></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBox Grid.Column="1" Grid.Row="1" Name="ekran" FontSize="40"  HorizontalContentAlignment="Right"  Grid.ColumnSpan="5" >
+            </TextBox>
+            <Label  HorizontalContentAlignment="Right" FontSize="30" Name="history" Grid.Column="0" Grid.Row="0" Grid.ColumnSpan="2"></Label>
+            <Label  Name="M" FontSize="20" Margin="10" Grid.Column="0" Grid.Row="1" ></Label>
+        </Grid> 
+       
+         
+                
+            
+      
     </Grid>
 </Window>
