@@ -24,112 +24,107 @@
             <RowDefinition Height="2*"/>
             <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
-
-        <Button Name="button_1" Content="1" Grid.Column="0" Grid.Row="6"  Click="button_1_Click" 
+        <Button  Content="View" FontSize="20" Grid.Column="0" Grid.Row="0"></Button>
+        <Button  Content="Edit" FontSize="20" Grid.Column="1" Grid.Row="0"></Button>
+        <Button  Content="Help" FontSize="20" Grid.Column="2" Grid.Row="0"></Button>
+        <Button Background="Gray" Name="button_1" Content="1" FontSize="60" Grid.Column="0" Grid.Row="6"   Click="button_1_Click" 
                  >
        
         </Button>
-        <Button Name="button_2"  Content="2" Grid.Column="1" Grid.Row="6"  Click="button_1_Click"
+         <Button Background="gray" Name="button_2"  Content="2" FontSize="60" Grid.Column="1" Grid.Row="6"  Click="button_1_Click"
                  >
          
         </Button>
-        <Button Name="button_3"  Content="3" Grid.Column="2" Grid.Row="6"  Click="button_1_Click"
+         <Button Background="gray" Name="button_3"  Content="3" FontSize="60" Grid.Column="2" Grid.Row="6"  Click="button_1_Click"
                  >
           
         </Button>
-        <Button Name="button_4" Content="4" Grid.Column="0" Grid.Row="5"  Click="button_1_Click"
+         <Button Background="gray" Name="button_4" Content="4" FontSize="60" Grid.Column="0" Grid.Row="5"  Click="button_1_Click"
                  >
           
         </Button>
-        <Button Name="button_5"  Content="5" Grid.Column="1" Grid.Row="5"  Click="button_1_Click"
+         <Button Background="gray" Name="button_5"  Content="5" FontSize="60" Grid.Column="1" Grid.Row="5"  Click="button_1_Click"
                  >
            
         </Button>
-        <Button Name="button_6"  Content="6" Grid.Column="2" Grid.Row="5"  Click="button_1_Click"
+         <Button Background="gray" Name="button_6"  Content="6" FontSize="60" Grid.Column="2" Grid.Row="5"  Click="button_1_Click"
                  >
           
         </Button>
-        <Button Name="button_7"   Content="7" Grid.Column="0" Grid.Row="4"  Click="button_1_Click"
+         <Button Background="gray" Name="button_7"   Content="7" FontSize="60" Grid.Column="0" Grid.Row="4"  Click="button_1_Click"
                  >
            
         </Button>
-        <Button Name="button_8" Content="8" Grid.Column="1" Grid.Row="4"  Click="button_1_Click"
+         <Button Background="gray" Name="button_8" Content="8" FontSize="60" Grid.Column="1" Grid.Row="4"  Click="button_1_Click"
                  >
           
         </Button>
-        <Button Name="button_9"  Content="9" Grid.Column="2" Grid.Row="4"  Click="button_1_Click"
+         <Button Background="gray" Name="button_9"  Content="9" FontSize="60" Grid.Column="2" Grid.Row="4"  Click="button_1_Click"
                  >
             
         </Button>
-        <Button Name="button_plus" Content="+" Grid.Column="3" Grid.Row="7"  Click="button_plus_Click"
+         <Button Background="Orange" Name="button_plus" FontSize="60" Content="+" Grid.Column="3" Grid.Row="7"  Click="button_plus_Click"
                  >
         
         </Button>
-        <Button Name="button_minus" Content="-"  Grid.Column="3" Grid.Row="6" Click="button_plus_Click"  
+         <Button Background="Orange" Name="button_minus" FontSize="60" Content="-"  Grid.Column="3" Grid.Row="6" Click="button_plus_Click"  
                  >
          
         </Button>
-        <Button Name="button_vur" Content="*" Grid.Column="3" Grid.Row="5" Click="button_plus_Click"  
+         <Button Background="Orange" Name="button_vur" FontSize="60" Content="*" Grid.Column="3" Grid.Row="5" Click="button_plus_Click"  
                  >
      
         </Button>
-        <Button Name="button_bol"  Content="/" Grid.Column="3" Grid.Row="4"  Click="button_plus_Click" 
+         <Button Background="Orange" Name="button_bol" FontSize="60" Content="/" Grid.Column="3" Grid.Row="4"  Click="button_plus_Click" 
                  >
     
         </Button>
-        <Button Name="button_vergul" Grid.Column="2" Grid.Row="7"   Click="button_vergul_Click"
-                 >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/fluent-regular-24px-vol-2/24/ic_fluent_comma_24_regular-256.png">
-            </Image>
-        </Button>
-        <Button Name="button_zero"  Content="0" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2"  Click="button_1_Click"
+         <Button Background="Orange" Name="button_vergul" Content="," FontSize="60"  Grid.Column="2" Grid.Row="7"   Click="button_vergul_Click"
                  >
            
         </Button>
-        <Button Name="button_beraber" Grid.Column="5" Grid.Row="6" Grid.RowSpan="2"  Click="button_beraber_Click">
-            <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/equal-128.png">
-            </Image>
+        <Button Background="gray" Name="button_zero"  Content="0" FontSize="60" Grid.Column="0" Grid.Row="7" Grid.ColumnSpan="2"  Click="button_1_Click"
+                 >
+           
         </Button>
-        <Button Name="button_faiz" Grid.Column="5" Grid.Row="4"   Click="button_faiz_Click">
-            <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/percentage-128.png">
-            </Image>
+         <Button Background="red" Name="button_beraber" Content="=" FontSize="60" Grid.Column="5" Grid.Row="6" Grid.RowSpan="2"  Click="button_beraber_Click">
+      
         </Button>
-        <Button Name="button_kok" Grid.Column="5" Grid.Row="3" Click="button_kok_Click"   >
-            <Image Source="https://cdn2.iconfinder.com/data/icons/calculator-toolbox/64/square_root-256.png">
-            </Image>
+         <Button Background="Orange" Name="button_faiz" Content="%" FontSize="60" Grid.Column="5" Grid.Row="4"   Click="button_faiz_Click">
+
         </Button>
-        <Button Name="button_plusminus" Grid.Column="3" Grid.Row="3" Click="button_plusminus_Click"  >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/plus-minus-256.png">
-            </Image>
+         <Button Background="Orange" Name="button_kok" Content="√" FontSize="60" Grid.Column="5" Grid.Row="3" Click="button_kok_Click"   >
+         
         </Button>
-        <Button Name="button_c" Grid.Column="2" Grid.Row="3"  Click="button_c_Click"     >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/font-awesome-solid/512/c-256.png">
-            </Image>
+         <Button Background="Orange" Name="button_plusminus" Content="±" FontSize="60" Grid.Column="3" Grid.Row="3" Click="button_plusminus_Click"  >
+           
         </Button>
-        <Button Name="button_ce" Grid.Column="1" Grid.Row="3" Click="button_ce_Click"     >
-            <Image Source="https://cdn3.iconfinder.com/data/icons/calculator-7/154/ce-math-function-operation-calculator-512.png">
-            </Image>
+         <Button Background="Orange" Name="button_c"  Content="C" FontSize="60" Grid.Column="2" Grid.Row="3"  Click="button_c_Click"     >
+      
         </Button>
-        <Button Name="button_delete" Grid.Column="0" Grid.Row="3"  Click="button_delete_Click" >
+         <Button Background="Orange" Name="button_ce" Content="CE" FontSize="60" Grid.Column="1" Grid.Row="3" Click="button_ce_Click"     >
+          
+        </Button>
+         <Button Background="Orange" Name="button_delete" Grid.Column="0" Grid.Row="3"  Click="button_delete_Click" >
             <Image Source="https://cdn4.iconfinder.com/data/icons/math-calculator-solid/48/Calculator-Math_hapus-512.png">
             </Image>
         </Button>
-        <Button Name="button_mc" Content="MC" FontSize="20" Grid.Column="0" Grid.Row="2" Click="button_mc_Click">
+         <Button Background="Orange" Name="button_mc" Content="MC" FontSize="20" Grid.Column="0" Grid.Row="2" Click="button_mc_Click">
        
         </Button>
-        <Button Name="button_mr" Content="MR" FontSize="20" Grid.Column="1" Grid.Row="2" Click="button_mr_Click"   >
+         <Button Background="Orange" Name="button_mr" Content="MR" FontSize="20" Grid.Column="1" Grid.Row="2" Click="button_mr_Click"   >
 
         </Button>
-        <Button Name="button_ms" Content="MS" FontSize="20" Grid.Column="2" Grid.Row="2" Click="button_ms_Click"   >
+         <Button Background="Orange" Name="button_ms" Content="MS" FontSize="20" Grid.Column="2" Grid.Row="2" Click="button_ms_Click"   >
 
         </Button>
-        <Button Name="button_mplus" Content="M+" FontSize="20" Grid.Column="3" Grid.Row="2" Click="button_mplus_Click"  >
+         <Button Background="Orange" Name="button_mplus" Content="M+" FontSize="20" Grid.Column="3" Grid.Row="2" Click="button_mplus_Click"  >
 
         </Button>
-        <Button Name="button_mminus" Content="M-" FontSize="20" Grid.Column="4" Grid.Row="2"  Click="button_mminus_Click"    >
+         <Button Background="Orange" Name="button_mminus" Content="M-" FontSize="20" Grid.Column="4" Grid.Row="2"  Click="button_mminus_Click"    >
 
         </Button>
-        <Button Name="button_1bolx" Content="1/x" FontSize="20" Grid.Column="5" Grid.Row="5"  Click="button_1bolx_Click"     >
+         <Button Background="Orange" Name="button_1bolx" Content="1/x" FontSize="20" Grid.Column="5" Grid.Row="5"  Click="button_1bolx_Click"     >
 
         </Button>
         
